@@ -20,6 +20,12 @@ p.content {
     width: 60%;
 }
 
+ul p {
+    font-weight: bold;
+    text-decoration: overline underline;
+    margin: 0px;
+}
+
 li {
     list-style: none;
     padding: 15px 0px;
