@@ -41,5 +41,10 @@ li a:hover {
     margin: 10px auto;
     background-color: blanchedalmond;
     font-size: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+}
+
+footer p {
+    text-align: right;
+    padding-bottom: 20px;
 }
