@@ -22,6 +22,7 @@ p.content {
 
 li {
     list-style: none;
+    padding: 15px 0px;
 }
 
 li a {
