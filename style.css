@@ -1,0 +1,41 @@
+body {
+    margin: 0 10%;
+    background-color: bisque;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1 {
+    min-height: 300px;
+    font-size: 120px;
+    text-align: left;
+}
+
+.content {
+    display: inline-block;
+    min-height: auto;
+    text-align: left;
+}
+
+p.content {
+    width: 60%;
+}
+
+nav.content {
+    margin-top: 0%;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: blanchedalmond;
+    font-size: 30px;
+}
