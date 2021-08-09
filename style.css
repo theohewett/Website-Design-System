@@ -41,7 +41,7 @@ li a:hover {
     color: steelblue;
 }
 
-.container {
+.summary {
     border: 2px solid black;
     padding: 15px;
     margin: 10px auto;
@@ -53,4 +53,51 @@ li a:hover {
 footer p {
     text-align: right;
     padding-bottom: 20px;
+}
+
+.colour-panel {
+    display: inline-block;
+    width: 24%;
+    min-height: 400px;
+    vertical-align: middle;
+    border: 2px solid black;
+}
+
+.colour-panel p {
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.colour-label {
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.colour-use {
+    font-style: italic;
+}
+
+.colour-hex {
+    vertical-align: bottom;
+}
+
+.deepcyan {
+    background-color: #86A8A8;
+    color: white;
+}
+
+.darkslategray {
+    background-color: #2F4F4F;
+    color: white;
+}
+
+.malbec {
+    background-color: #4F2F42;
+    color: white;
+}
+
+.citrus-burn {
+    background-color: #4F422F;
+    color: white;
 }
