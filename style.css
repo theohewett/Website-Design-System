@@ -1,7 +1,8 @@
+
 body {
     margin: 0 10%;
     background-color: bisque;
-    font-family:'Courier New', Courier, monospace;
+    font-family: Karla, monospace;
 }
 
 h1 {
@@ -101,4 +102,50 @@ footer p {
 .citrus-burn {
     background-color: #4F422F;
     color: white;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    border: 2px solid black;
+    align-content: center;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+
+.font-panel p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.font-panel .font-label {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.font-label,
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.karla {
+    font-family: Karla;
+}
+
+.montserrat {
+    font-family: Montserrat;
+}
+
+.space-mono {
+    font-family: "Space Mono";
+}
+
+.libre-baskerville {
+    font-family: "Libre Baskerville";
 }
