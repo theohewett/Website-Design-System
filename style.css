@@ -57,10 +57,11 @@ footer p {
 
 .colour-panel {
     display: inline-block;
-    width: 24%;
+    width: 23%;
     min-height: 400px;
     vertical-align: middle;
     border: 2px solid black;
+    margin: 4px;
 }
 
 .colour-panel p {
