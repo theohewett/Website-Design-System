@@ -1,0 +1,150 @@
+body {
+    margin: 0 10%;
+    background-color: bisque;
+    font-family: Karla, monospace;
+}
+
+h1 {
+    min-height: fit-content;
+    font-size: 110px;
+    text-align: left;
+}
+
+.content {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+p.content {
+    width: 60%;
+}
+
+ul p {
+    font-weight: bold;
+    text-decoration: overline underline;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+    padding: 15px 0px;
+}
+
+li a {
+    text-decoration: none;
+    color: olive;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: steelblue;
+}
+
+.summary {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px auto;
+    background-color: blanchedalmond;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+footer p {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.colour-panel {
+    display: inline-block;
+    width: 23%;
+    min-height: 400px;
+    vertical-align: middle;
+    border: 2px solid black;
+    margin: 4px;
+}
+
+.colour-panel p {
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.colour-label {
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.colour-use {
+    font-style: italic;
+}
+
+.colour-hex {
+    vertical-align: bottom;
+}
+
+.deepcyan {
+    background-color: #86A8A8;
+    color: white;
+}
+
+.darkslategray {
+    background-color: #2F4F4F;
+    color: white;
+}
+
+.malbec {
+    background-color: #4F2F42;
+    color: white;
+}
+
+.citrus-burn {
+    background-color: #4F422F;
+    color: white;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    border: 2px solid black;
+    align-content: center;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+
+.font-panel p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.font-panel .font-label {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.font-label,
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.karla {
+    font-family: Karla;
+}
+
+.montserrat {
+    font-family: Montserrat;
+}
+
+.space-mono {
+    font-family: "Space Mono";
+}
+
+.libre-baskerville {
+    font-family: "Libre Baskerville";
+}
